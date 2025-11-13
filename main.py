@@ -16,7 +16,11 @@ font_scale = 1
 weared_mask = "Mask"
 not_weared_mask = "No_Mask"
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
+
+if not cap.isOpened():
+    print("Erreur : impossible d’accéder à la caméra.")
+    exit()
 
 while 1:
     ret, img = cap.read()
