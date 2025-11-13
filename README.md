@@ -17,30 +17,12 @@ L’application utilise un flux vidéo en temps réel et distingue :
 
 ---
 
-## 📁 Structure du projet
-
-MaskDetector/
-│
-├── main.py
-├── cascade_files/
-│ ├── haarcascade_frontalface_default.xml
-│ ├── haarcascade_eye.xml
-│ ├── haarcascade_mcs_mouth.xml
-│ └── haarcascade_upperbody.xml
-└── README.md
-└── requirements.txt
-└── .gitignore
----
-
-
----
-
 ## ⚙️ Installation
 
 ### 1️⃣ Crée un environnement virtuel (optionnel mais recommandé)
 ```bash
 python -m venv .env
-
+```
 --- 
 
 ### Activation sous windows
